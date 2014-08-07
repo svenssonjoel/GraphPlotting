@@ -111,7 +111,7 @@ WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
             x = box.left + box.width/2 - width/2;
             y = box.top + box.height - height*0.72;
         } else if (this.position == 'left') {
-            x = box.left + height*0.72;
+            x = box.left + 10 + height*0.72;
             y = box.height/2 + box.top + width/2;
             angle = -Math.PI/2;
         } else if (this.position == 'right') {
